@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+
+    <LinearLayout
+        android:id="@+id/ll_chkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".25" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.12"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/chk_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.13"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_recommend"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.75"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_home_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left|bottom"
+                android:singleLine="true"
+                android:text="Heel Raise"
+
+                />
+
+            <TextView
+                android:id="@+id/txt_home_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:text="10 Sec. 20 Sets"
+
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"></View>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".7"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_diet_recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left|top"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.78"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_therapy_excercise_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left|bottom"
+                android:singleLine="true"
+                android:text="Heel Raise"
+
+                />
+
+            <TextView
+                android:id="@+id/txt_therapy_excercise_sets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:text="10 Sec. 20 Sets"
+
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"></View>
+
+    </LinearLayout>
+
+
+</LinearLayout>
